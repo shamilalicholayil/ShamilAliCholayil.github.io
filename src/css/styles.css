@@ -200,6 +200,7 @@ form input, form textarea {
     background: gray;
     width: 150px;
     height: 50px;
+    border: none;
     border-radius: 15px;
     color: black;
     font-weight: bolder;
@@ -209,4 +210,5 @@ form input, form textarea {
     color: #61b752;
     margin-top: 10px;
     display: block;
+
 }
