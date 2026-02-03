@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamil Ali Cholayil</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1 id="break">If it ain't <span>broke,</span><br> break it.</h1>
+                <h1 id="stux">- STUX</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------------About---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/Sham.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-me">About Me</h1>
+                    <div class="info">
+                        <p>I'm Shamil, a passionate frontend developer learning modern web technologies. I enjoy building clean, responsive websites and improving every day.</p>
+                        <div class="mycontact">
+                            <p><strong>Name :</strong> Shamil Ali Cholayil</p>
+                            <p><strong>Role :</strong> Frontend Dev</p>
+                            <p><strong>Email :</strong> shamilalicholayil@gmail.com</p>
+                            <p><strong>Location :</strong> India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------services------------------------ -->
+    <div id="services">
+        <h1 class="details">Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Clean Simple Websites</p>
+            </div>
+            <div>
+                <h2>Portfolio Website</h2>
+                <p>Clean Simple Websites</p>
+            </div>
+            <div>
+                <h2>Frontend Developer</h2>
+                <p>Clean Simple Websites</p>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------skills------------------------ -->
+    <div id="skill">
+        <h1 class="details">Skills</h1>
+        <div class="skills-list">
+            <div class="skill-card">
+                <img src="./images/html.png">
+                <p>HTML</p>
+            </div>
+            <div class="skill-card">
+                <img src="./images/css.png">
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <img src="./images/js.png">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <img src="./images/bootstrap.png">
+                <p>Bootstrap</p>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="details">Contact Me</h1>
+                </div>
+                <div class="contact-right">
+                    <form name="Messages-From-My-Website">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/script/index.js"></script>
+</body>
+</html>
